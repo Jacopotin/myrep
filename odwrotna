@@ -1,0 +1,21 @@
+package pl.indykiewicz.firstapp;
+import java.util.Arrays;
+public class z6 {
+
+
+
+
+        public static void main(String[] args) {
+            int[] tab ={1,9,7,3};
+            for(int i=0; i<tab.length/2;i++)
+            {
+                int tmp=tab[i];
+                tab[i]=tab[tab.length-i-1];
+                tab[tab.length-i-1]=tmp;
+            }
+            System.out.println(Arrays.toString(tab));
+        }
+
+
+    }
+
