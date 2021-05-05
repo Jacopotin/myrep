@@ -1,0 +1,29 @@
+
+package pl.indykiewicz.firstapp;
+
+import java.util.Scanner;
+
+public class z3 {
+    public static void main(String[] args) {
+
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj bok a: ");
+        int a = scan.nextInt();
+        System.out.println("Podaj bok b: ");
+        int b = scan.nextInt();
+        System.out.println("Podaj bok c:");
+        int c = scan.nextInt();
+        if (a <= 0 || b <= 0 || c <= 0) {
+            System.out.println("Cos zepsules!!");
+
+        } else if ((a * a) + (b * b) == (c * c) || (a * a) + (c * c) == (b * b) || (b * b) + (c * c) == (a * a))  {
+                System.out.println("Trojkat jest prostokatny");
+            } else
+            {
+                System.out.println("Trojkat nie jest protokatny");
+
+            }
+        }
+    }
+
