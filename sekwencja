@@ -1,0 +1,17 @@
+
+package pl.indykiewicz.firstapp;
+
+public class z2 {
+    public static void main(String[] args) {
+        boolean czyprawda = false;
+        int [] tab = {1,4,5,2,3,7,1,2,4,1,2,3};
+
+        for (int i=0 ;i<tab.length -2 ;i++){
+            if (tab[i] == 1 && tab[i+1] == 2 && tab[i+2] == 3){
+                czyprawda = true;
+            }
+        }
+        System.out.println(czyprawda);
+    }
+}
+
