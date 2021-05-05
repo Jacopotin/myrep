@@ -1,0 +1,32 @@
+package pl.indykiewicz.firstapp;
+import java.util.Scanner;
+public class z4 {
+
+
+
+
+
+
+
+        public static void main(String[] arg){
+            int gwiazdki;
+            int x=1;
+
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Podaj ile linijek gwiazdek ");
+            gwiazdki = scan.nextInt( );
+            for(int i=0; i < gwiazdki; i++){
+                for(int j=0; j<x; j++){
+                    System.out.printf("*");
+
+                }
+                x++;
+                System.out.println();
+
+
+
+            }
+
+        }
+    }
+
