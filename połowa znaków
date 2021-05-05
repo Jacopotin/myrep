@@ -1,0 +1,16 @@
+package pl.indykiewicz.firstapp;
+
+public class z5 {
+
+
+        public static void main(String[] args){
+            String napis="laptop";
+            char[] tab=napis.toCharArray();
+            String result = "";
+            for (int i=0; i< tab.length/2; i++){
+                result += tab [i];
+            }
+            System.out.println(result);
+        }
+
+}
