@@ -1,0 +1,27 @@
+package pl.indykiewicz.firstapp;
+
+
+import java.util.Scanner;
+
+public class Firma {
+    public static void main(String args[]) {
+        Pracownik pracownik1 = new Pracownik();
+        Pracownik pracownik2 = new Pracownik();
+
+
+        pracownik1.imie = "Jan";
+        pracownik1.nazwisko = "Lorek";
+        pracownik1.wiek = 29;
+
+        pracownik2.imie = "Marian";
+        pracownik2.nazwisko = "Dybała";
+        pracownik2.wiek = 74;
+
+
+
+        System.out.println("Pracownicy firmy to:");
+        System.out.println(pracownik1.imie + " " + pracownik1.nazwisko + ", " + pracownik1.wiek + " lat");
+        System.out.println(pracownik2.imie + " " + pracownik2.nazwisko + ", " + pracownik2.wiek + " lat");
+
+    }
+}
